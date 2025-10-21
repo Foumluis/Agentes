@@ -9,5 +9,5 @@ agent = Agent(
     instructions='Be concise, reply with one sentence.',  
 )
 
-result = agent.run_sync('explicame como nacio git')  
+result = agent.run_sync('Who was Henry Ford?')  
 print(result.output)
