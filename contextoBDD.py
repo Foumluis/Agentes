@@ -2,7 +2,7 @@ from pydantic_ai import Agent, RunContext
 from dotenv import load_dotenv
 import mysql.connector as mysql
 from typing import List, Dict, Any
-
+from tool import toolsC
 load_dotenv()
 
 agent = Agent( 
@@ -21,7 +21,7 @@ def get_db_connection():
         host="localhost",  
         user="Admin",
         password="Hola123",
-        database="ejercicioNº1",
+        database="ia",
         autocommit=True
     )
 
